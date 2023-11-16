@@ -1,0 +1,108 @@
+ apt update
+    2  apt install git -y
+    3  git clone https://github.com/gouthi1/E-Commerce.git
+    4  ls
+    5  cd E-Commerce/E-commerce-7June/
+    6  ls
+    7  cd 
+    8  apt install php
+    9  apt install mysql
+   10  apt install mysql-server
+   11  ls
+   12  apt install apache2 -y
+   13  systemctl enable apache2
+   14  systemctl start apache2
+   15  systemctl status apache2
+   16  systemctl status php
+   17  systemctl enable php
+   18  systemctl enable php.service
+   19  service php start
+   20  service php enable
+   21  php -v
+   22  service php start
+   23  sudo service php start
+   24  php /var/www/html/index.php
+   25  apt install php -y
+   26  php -v
+   27  sudo apt install php7.4 php7.4-mysql
+   28  apt update
+   29  sudo apt install php7.4 php7.4-mysql
+   30  sudo service php start
+   31  sudo amazon-linux-extras enable php7.4
+   32  apt install amazon-linux-extras
+   33  sudo apt install php7.4 php7.4-mysql
+   34  sudo apt install php php-mysql
+   35  php -v
+   36  sudo service php start
+   37  sudo service php enable
+   38* 
+   39  sudo apt search php7.4
+   40  php
+   41  php -v
+   42  sudo service php8.1 start
+   43  sudo service php8.* start
+   44  apt update
+   45  sudo apt install --no-install-recommends php8.1
+   46  php -v
+   47  sudo apt-get install php8.1-PACKAGE_NAME
+   48  sudo apt-get install -y php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-gd php8.1-mbstring php8.1-curl php8.1-xml php8.1-bcmath
+   49  service php start
+   50  ls
+   51  pwd
+   52  cd /var/www/
+   53  ls
+   54  cd html/
+   55  rm index.html 
+   56  ls
+   57  pwd
+   58  cd
+   59  ls
+   60  mv E-Commerce/ /var/www/html
+   61  cd /var/www/html
+   62  ls
+   63  cd E-Commerce/E-commerce-7June/
+   64  ls
+   65  systemctl status mysql
+   66  systemctl status php
+   67  php -v
+   68  php path/to/your/script.php
+   69  cd 
+   70  cd /etc/apache2/sites-available/
+   71  ls
+   72  vi 000-default.conf 
+   73  mysql -h localhost -u root
+   74  cd
+   75  cd /var/www/html/E-Commerce/E-commerce-7June/
+   76  ls
+   77* 
+   78  cd -
+   79  cd /etc/apache2/
+   80  ls
+   81  cd sites-available/
+   82  ls
+   83  vi 000-default.conf 
+   84  cd
+   85  cd /var/www/html/E-Commerce/E-commerce-7June/
+   86  msql -h localhost -u root -p ecommerce_marolix < ecommerce_marolix.sql
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd /etc/apache2/
+   91  cd sites-available/
+   92  vi 000-default.conf 
+   93  cd /var/www/html/E-Commerce/
+   94  ls
+   95  mysql -h localhost -u root -p ecommerce_marolix < ecommerce_marolix.sql
+   96  cd database/
+   97  mysql -h localhost -u root -p ecommerce_marolix < ecommerce_marolix.sql
+   98  ls
+   99  cd database/
+  100  ls
+  101  mysql -h localhost -u root -p ecommerce_marolix < ecommerce_marolix.sql
+  102  systemctl start httpd
+  103  systemctl restart apache2
+  104  ls
+  105  mysql -h localhost -u root -p
+  106  systemctl restart aphache2
+  107  systemctl restart apache2
+  108  history
